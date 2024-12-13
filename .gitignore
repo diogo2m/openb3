@@ -1,0 +1,54 @@
+# Python specific
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+venv/
+*.venv/
+*env/
+*.venv/
+*.git
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Build directories
+.build/
+dist/
+*.egg-info/
+
+# IDE-specific
+.idea/
+*.suo
+*.swp
+*.swi
+
+# Output files
+*.log
+*.aux
+*.out
+*.bak
+*.swp
+
+# Poetry
+.poetry/
+.poetry.lock
+__pypackages__
+
+# Other
+*.DS_Store
+*.log
+*.tmp
+*.bak
+
+# Custom files
+.sqlitedb
